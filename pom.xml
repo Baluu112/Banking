@@ -47,6 +47,12 @@
 			<type>pom</type>
 
 		</dependency>
+		<distributionManagement>
+  <snapshotRepository>
+    <id>snapshots</id>
+    <url>http://13.127.126.45:8081//nexus/content/repositories/snapshots</url>
+  </snapshotRepository>
+</distributionManagement>
 		<dependency>
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger-ui</artifactId>
